@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B404ED42066289B00A568D6 /* JCCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B404ECA2066289B00A568D6 /* JCCUIKit.framework */; };
+		4B404ED92066289B00A568D6 /* JCCUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404ED82066289B00A568D6 /* JCCUIKitTests.m */; };
+		4B404EDB2066289B00A568D6 /* JCCUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404ECD2066289B00A568D6 /* JCCUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B404F02206629F500A568D6 /* JCCWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EE7206629F500A568D6 /* JCCWeakProxy.h */; };
+		4B404F03206629F500A568D6 /* JCCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EE8206629F500A568D6 /* JCCError.m */; };
+		4B404F04206629F500A568D6 /* JCCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EE9206629F500A568D6 /* JCCColor.h */; };
+		4B404F05206629F500A568D6 /* JCCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EEA206629F500A568D6 /* JCCTextField.m */; };
+		4B404F06206629F500A568D6 /* JCCModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EEB206629F500A568D6 /* JCCModel.h */; };
+		4B404F07206629F500A568D6 /* JCCCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EEC206629F500A568D6 /* JCCCollectionView.h */; };
+		4B404F08206629F500A568D6 /* JCCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EED206629F500A568D6 /* JCCError.h */; };
+		4B404F09206629F500A568D6 /* JCCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EEE206629F500A568D6 /* JCCModel.m */; };
+		4B404F0A206629F500A568D6 /* JCCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EEF206629F500A568D6 /* JCCString.m */; };
+		4B404F0B206629F500A568D6 /* JCCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EF0206629F500A568D6 /* JCCColor.m */; };
+		4B404F0C206629F500A568D6 /* JCCTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EF1206629F500A568D6 /* JCCTableView.h */; };
+		4B404F0D206629F500A568D6 /* JCCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EF2206629F500A568D6 /* JCCImage.m */; };
+		4B404F0E206629F500A568D6 /* JCCTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EF3206629F500A568D6 /* JCCTextField.h */; };
+		4B404F0F206629F500A568D6 /* JCCString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EF4206629F500A568D6 /* JCCString.h */; };
+		4B404F10206629F500A568D6 /* JCCWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EF5206629F500A568D6 /* JCCWeakProxy.m */; };
+		4B404F11206629F500A568D6 /* JCCCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EF6206629F500A568D6 /* JCCCollectionView.m */; };
+		4B404F12206629F500A568D6 /* JCCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EF7206629F500A568D6 /* JCCButton.m */; };
+		4B404F13206629F500A568D6 /* JCCImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EF8206629F500A568D6 /* JCCImage.h */; };
+		4B404F14206629F500A568D6 /* JCCDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EF9206629F500A568D6 /* JCCDefines.h */; };
+		4B404F15206629F500A568D6 /* JCCData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EFA206629F500A568D6 /* JCCData.h */; };
+		4B404F16206629F500A568D6 /* JCCScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EFB206629F500A568D6 /* JCCScreen.h */; };
+		4B404F17206629F500A568D6 /* JCCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EFC206629F500A568D6 /* JCCTableView.m */; };
+		4B404F18206629F500A568D6 /* JCCScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EFD206629F500A568D6 /* JCCScreen.m */; };
+		4B404F19206629F500A568D6 /* JCCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EFE206629F500A568D6 /* JCCButton.h */; };
+		4B404F1A206629F500A568D6 /* JCCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EFF206629F500A568D6 /* JCCDevice.m */; };
+		4B404F1B206629F500A568D6 /* JCCDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F00206629F500A568D6 /* JCCDevice.h */; };
+		4B404F1C206629F500A568D6 /* JCCData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F01206629F500A568D6 /* JCCData.m */; };
+		4B404F2320662A4A00A568D6 /* ZKRJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F1F20662A4A00A568D6 /* ZKRJSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4B404F2420662A4A00A568D6 /* ZKRJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F2020662A4A00A568D6 /* ZKRJSONSerialization.h */; };
+		4B404F2520662A4A00A568D6 /* ZKRJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F2120662A4A00A568D6 /* ZKRJSONKit.h */; };
+		4B404F2620662A4A00A568D6 /* ZKRJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F2220662A4A00A568D6 /* ZKRJSONSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4B404F2F20662AE500A568D6 /* jccmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F2B20662AE500A568D6 /* jccmetamacros.h */; };
+		4B404F3020662AE500A568D6 /* JCCEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F2C20662AE500A568D6 /* JCCEXTScope.h */; };
+		4B404F3120662AE500A568D6 /* JCCEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F2D20662AE500A568D6 /* JCCEXTKeyPathCoding.h */; };
+		4B404F3220662AE500A568D6 /* JCCEXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F2E20662AE500A568D6 /* JCCEXTScope.m */; };
+		4B404F4720662B1000A568D6 /* JCCDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F3520662B1000A568D6 /* JCCDrawingView.h */; };
+		4B404F4820662B1000A568D6 /* JCCLoopHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F3620662B1000A568D6 /* JCCLoopHUD.h */; };
+		4B404F4920662B1000A568D6 /* JCCAnimatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F3720662B1000A568D6 /* JCCAnimatable.h */; };
+		4B404F4A20662B1000A568D6 /* JCCLoopActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F3820662B1000A568D6 /* JCCLoopActivityIndicatorView.m */; };
+		4B404F4B20662B1000A568D6 /* JCCLoopHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F3920662B1000A568D6 /* JCCLoopHUD.m */; };
+		4B404F4C20662B1000A568D6 /* JCCDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F3A20662B1000A568D6 /* JCCDrawingView.m */; };
+		4B404F4D20662B1000A568D6 /* JCCLoopActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F3B20662B1000A568D6 /* JCCLoopActivityIndicatorView.h */; };
+		4B404F4E20662B1000A568D6 /* JCCMessageBarMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F3D20662B1000A568D6 /* JCCMessageBarMessage.m */; };
+		4B404F4F20662B1000A568D6 /* JCCMessageBarWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F3E20662B1000A568D6 /* JCCMessageBarWindow.h */; };
+		4B404F5020662B1000A568D6 /* JCCMessageBarSwipeGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F3F20662B1000A568D6 /* JCCMessageBarSwipeGesture.h */; };
+		4B404F5120662B1000A568D6 /* JCCMessageBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F4020662B1000A568D6 /* JCCMessageBarManager.m */; };
+		4B404F5220662B1000A568D6 /* JCCMessageBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F4120662B1000A568D6 /* JCCMessageBar.h */; };
+		4B404F5320662B1000A568D6 /* JCCMessageBarSwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F4220662B1000A568D6 /* JCCMessageBarSwipeGesture.m */; };
+		4B404F5420662B1000A568D6 /* JCCMessageBarWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F4320662B1000A568D6 /* JCCMessageBarWindow.m */; };
+		4B404F5520662B1000A568D6 /* JCCMessageBarMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F4420662B1000A568D6 /* JCCMessageBarMessage.h */; };
+		4B404F5620662B1000A568D6 /* JCCMessageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F4520662B1000A568D6 /* JCCMessageBar.m */; };
+		4B404F5720662B1000A568D6 /* JCCMessageBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F4620662B1000A568D6 /* JCCMessageBarManager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B404ED52066289B00A568D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B404EC12066289B00A568D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B404EC92066289B00A568D6;
+			remoteInfo = JCCUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B404ECA2066289B00A568D6 /* JCCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B404ECD2066289B00A568D6 /* JCCUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCCUIKit.h; sourceTree = "<group>"; };
+		4B404ECE2066289B00A568D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B404ED32066289B00A568D6 /* JCCUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B404ED82066289B00A568D6 /* JCCUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCUIKitTests.m; sourceTree = "<group>"; };
+		4B404EDA2066289B00A568D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B404EE7206629F500A568D6 /* JCCWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCWeakProxy.h; sourceTree = "<group>"; };
+		4B404EE8206629F500A568D6 /* JCCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCError.m; sourceTree = "<group>"; };
+		4B404EE9206629F500A568D6 /* JCCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCColor.h; sourceTree = "<group>"; };
+		4B404EEA206629F500A568D6 /* JCCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCTextField.m; sourceTree = "<group>"; };
+		4B404EEB206629F500A568D6 /* JCCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCModel.h; sourceTree = "<group>"; };
+		4B404EEC206629F500A568D6 /* JCCCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCCollectionView.h; sourceTree = "<group>"; };
+		4B404EED206629F500A568D6 /* JCCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCError.h; sourceTree = "<group>"; };
+		4B404EEE206629F500A568D6 /* JCCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCModel.m; sourceTree = "<group>"; };
+		4B404EEF206629F500A568D6 /* JCCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCString.m; sourceTree = "<group>"; };
+		4B404EF0206629F500A568D6 /* JCCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCColor.m; sourceTree = "<group>"; };
+		4B404EF1206629F500A568D6 /* JCCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCTableView.h; sourceTree = "<group>"; };
+		4B404EF2206629F500A568D6 /* JCCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCImage.m; sourceTree = "<group>"; };
+		4B404EF3206629F500A568D6 /* JCCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCTextField.h; sourceTree = "<group>"; };
+		4B404EF4206629F500A568D6 /* JCCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCString.h; sourceTree = "<group>"; };
+		4B404EF5206629F500A568D6 /* JCCWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCWeakProxy.m; sourceTree = "<group>"; };
+		4B404EF6206629F500A568D6 /* JCCCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCCollectionView.m; sourceTree = "<group>"; };
+		4B404EF7206629F500A568D6 /* JCCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCButton.m; sourceTree = "<group>"; };
+		4B404EF8206629F500A568D6 /* JCCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCImage.h; sourceTree = "<group>"; };
+		4B404EF9206629F500A568D6 /* JCCDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCDefines.h; sourceTree = "<group>"; };
+		4B404EFA206629F500A568D6 /* JCCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCData.h; sourceTree = "<group>"; };
+		4B404EFB206629F500A568D6 /* JCCScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCScreen.h; sourceTree = "<group>"; };
+		4B404EFC206629F500A568D6 /* JCCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCTableView.m; sourceTree = "<group>"; };
+		4B404EFD206629F500A568D6 /* JCCScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCScreen.m; sourceTree = "<group>"; };
+		4B404EFE206629F500A568D6 /* JCCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCButton.h; sourceTree = "<group>"; };
+		4B404EFF206629F500A568D6 /* JCCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCDevice.m; sourceTree = "<group>"; };
+		4B404F00206629F500A568D6 /* JCCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCDevice.h; sourceTree = "<group>"; };
+		4B404F01206629F500A568D6 /* JCCData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCData.m; sourceTree = "<group>"; };
+		4B404F1F20662A4A00A568D6 /* ZKRJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKRJSONKit.m; sourceTree = "<group>"; };
+		4B404F2020662A4A00A568D6 /* ZKRJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKRJSONSerialization.h; sourceTree = "<group>"; };
+		4B404F2120662A4A00A568D6 /* ZKRJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKRJSONKit.h; sourceTree = "<group>"; };
+		4B404F2220662A4A00A568D6 /* ZKRJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKRJSONSerialization.m; sourceTree = "<group>"; };
+		4B404F2B20662AE500A568D6 /* jccmetamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jccmetamacros.h; sourceTree = "<group>"; };
+		4B404F2C20662AE500A568D6 /* JCCEXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCEXTScope.h; sourceTree = "<group>"; };
+		4B404F2D20662AE500A568D6 /* JCCEXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCEXTKeyPathCoding.h; sourceTree = "<group>"; };
+		4B404F2E20662AE500A568D6 /* JCCEXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCEXTScope.m; sourceTree = "<group>"; };
+		4B404F3520662B1000A568D6 /* JCCDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCDrawingView.h; sourceTree = "<group>"; };
+		4B404F3620662B1000A568D6 /* JCCLoopHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCLoopHUD.h; sourceTree = "<group>"; };
+		4B404F3720662B1000A568D6 /* JCCAnimatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCAnimatable.h; sourceTree = "<group>"; };
+		4B404F3820662B1000A568D6 /* JCCLoopActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCLoopActivityIndicatorView.m; sourceTree = "<group>"; };
+		4B404F3920662B1000A568D6 /* JCCLoopHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCLoopHUD.m; sourceTree = "<group>"; };
+		4B404F3A20662B1000A568D6 /* JCCDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCDrawingView.m; sourceTree = "<group>"; };
+		4B404F3B20662B1000A568D6 /* JCCLoopActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCLoopActivityIndicatorView.h; sourceTree = "<group>"; };
+		4B404F3D20662B1000A568D6 /* JCCMessageBarMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCMessageBarMessage.m; sourceTree = "<group>"; };
+		4B404F3E20662B1000A568D6 /* JCCMessageBarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCMessageBarWindow.h; sourceTree = "<group>"; };
+		4B404F3F20662B1000A568D6 /* JCCMessageBarSwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCMessageBarSwipeGesture.h; sourceTree = "<group>"; };
+		4B404F4020662B1000A568D6 /* JCCMessageBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCMessageBarManager.m; sourceTree = "<group>"; };
+		4B404F4120662B1000A568D6 /* JCCMessageBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCMessageBar.h; sourceTree = "<group>"; };
+		4B404F4220662B1000A568D6 /* JCCMessageBarSwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCMessageBarSwipeGesture.m; sourceTree = "<group>"; };
+		4B404F4320662B1000A568D6 /* JCCMessageBarWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCMessageBarWindow.m; sourceTree = "<group>"; };
+		4B404F4420662B1000A568D6 /* JCCMessageBarMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCMessageBarMessage.h; sourceTree = "<group>"; };
+		4B404F4520662B1000A568D6 /* JCCMessageBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCMessageBar.m; sourceTree = "<group>"; };
+		4B404F4620662B1000A568D6 /* JCCMessageBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCMessageBarManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B404EC62066289B00A568D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B404ED02066289B00A568D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B404ED42066289B00A568D6 /* JCCUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B404EC02066289B00A568D6 = {
+			isa = PBXGroup;
+			children = (
+				4B404ECC2066289B00A568D6 /* JCCUIKit */,
+				4B404ED72066289B00A568D6 /* JCCUIKitTests */,
+				4B404ECB2066289B00A568D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B404ECB2066289B00A568D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B404ECA2066289B00A568D6 /* JCCUIKit.framework */,
+				4B404ED32066289B00A568D6 /* JCCUIKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B404ECC2066289B00A568D6 /* JCCUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B404ECD2066289B00A568D6 /* JCCUIKit.h */,
+				4B404EE6206629D800A568D6 /* Base */,
+				4B404F3320662B1000A568D6 /* MessageHUD */,
+				4B404F1D20662A3B00A568D6 /* External */,
+				4B404ECE2066289B00A568D6 /* Info.plist */,
+			);
+			path = JCCUIKit;
+			sourceTree = "<group>";
+		};
+		4B404ED72066289B00A568D6 /* JCCUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B404ED82066289B00A568D6 /* JCCUIKitTests.m */,
+				4B404EDA2066289B00A568D6 /* Info.plist */,
+			);
+			path = JCCUIKitTests;
+			sourceTree = "<group>";
+		};
+		4B404EE6206629D800A568D6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4B404EFE206629F500A568D6 /* JCCButton.h */,
+				4B404EF7206629F500A568D6 /* JCCButton.m */,
+				4B404EEC206629F500A568D6 /* JCCCollectionView.h */,
+				4B404EF6206629F500A568D6 /* JCCCollectionView.m */,
+				4B404EE9206629F500A568D6 /* JCCColor.h */,
+				4B404EF0206629F500A568D6 /* JCCColor.m */,
+				4B404EFA206629F500A568D6 /* JCCData.h */,
+				4B404F01206629F500A568D6 /* JCCData.m */,
+				4B404EF9206629F500A568D6 /* JCCDefines.h */,
+				4B404F00206629F500A568D6 /* JCCDevice.h */,
+				4B404EFF206629F500A568D6 /* JCCDevice.m */,
+				4B404EED206629F500A568D6 /* JCCError.h */,
+				4B404EE8206629F500A568D6 /* JCCError.m */,
+				4B404EF8206629F500A568D6 /* JCCImage.h */,
+				4B404EF2206629F500A568D6 /* JCCImage.m */,
+				4B404EEB206629F500A568D6 /* JCCModel.h */,
+				4B404EEE206629F500A568D6 /* JCCModel.m */,
+				4B404EFB206629F500A568D6 /* JCCScreen.h */,
+				4B404EFD206629F500A568D6 /* JCCScreen.m */,
+				4B404EF4206629F500A568D6 /* JCCString.h */,
+				4B404EEF206629F500A568D6 /* JCCString.m */,
+				4B404EF1206629F500A568D6 /* JCCTableView.h */,
+				4B404EFC206629F500A568D6 /* JCCTableView.m */,
+				4B404EF3206629F500A568D6 /* JCCTextField.h */,
+				4B404EEA206629F500A568D6 /* JCCTextField.m */,
+				4B404EE7206629F500A568D6 /* JCCWeakProxy.h */,
+				4B404EF5206629F500A568D6 /* JCCWeakProxy.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4B404F1D20662A3B00A568D6 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4B404F2A20662AE500A568D6 /* extobjc */,
+				4B404F1E20662A4A00A568D6 /* JSONKit */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		4B404F1E20662A4A00A568D6 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B404F2120662A4A00A568D6 /* ZKRJSONKit.h */,
+				4B404F1F20662A4A00A568D6 /* ZKRJSONKit.m */,
+				4B404F2020662A4A00A568D6 /* ZKRJSONSerialization.h */,
+				4B404F2220662A4A00A568D6 /* ZKRJSONSerialization.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		4B404F2A20662AE500A568D6 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				4B404F2B20662AE500A568D6 /* jccmetamacros.h */,
+				4B404F2C20662AE500A568D6 /* JCCEXTScope.h */,
+				4B404F2D20662AE500A568D6 /* JCCEXTKeyPathCoding.h */,
+				4B404F2E20662AE500A568D6 /* JCCEXTScope.m */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		4B404F3320662B1000A568D6 /* MessageHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4B404F3420662B1000A568D6 /* Indicator */,
+				4B404F3C20662B1000A568D6 /* MessageBar */,
+			);
+			path = MessageHUD;
+			sourceTree = "<group>";
+		};
+		4B404F3420662B1000A568D6 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				4B404F3720662B1000A568D6 /* JCCAnimatable.h */,
+				4B404F3520662B1000A568D6 /* JCCDrawingView.h */,
+				4B404F3A20662B1000A568D6 /* JCCDrawingView.m */,
+				4B404F3B20662B1000A568D6 /* JCCLoopActivityIndicatorView.h */,
+				4B404F3820662B1000A568D6 /* JCCLoopActivityIndicatorView.m */,
+				4B404F3620662B1000A568D6 /* JCCLoopHUD.h */,
+				4B404F3920662B1000A568D6 /* JCCLoopHUD.m */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		4B404F3C20662B1000A568D6 /* MessageBar */ = {
+			isa = PBXGroup;
+			children = (
+				4B404F4120662B1000A568D6 /* JCCMessageBar.h */,
+				4B404F4520662B1000A568D6 /* JCCMessageBar.m */,
+				4B404F4620662B1000A568D6 /* JCCMessageBarManager.h */,
+				4B404F4020662B1000A568D6 /* JCCMessageBarManager.m */,
+				4B404F4420662B1000A568D6 /* JCCMessageBarMessage.h */,
+				4B404F3D20662B1000A568D6 /* JCCMessageBarMessage.m */,
+				4B404F3F20662B1000A568D6 /* JCCMessageBarSwipeGesture.h */,
+				4B404F4220662B1000A568D6 /* JCCMessageBarSwipeGesture.m */,
+				4B404F3E20662B1000A568D6 /* JCCMessageBarWindow.h */,
+				4B404F4320662B1000A568D6 /* JCCMessageBarWindow.m */,
+			);
+			path = MessageBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B404EC72066289B00A568D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B404F02206629F500A568D6 /* JCCWeakProxy.h in Headers */,
+				4B404F4820662B1000A568D6 /* JCCLoopHUD.h in Headers */,
+				4B404F0F206629F500A568D6 /* JCCString.h in Headers */,
+				4B404F06206629F500A568D6 /* JCCModel.h in Headers */,
+				4B404F04206629F500A568D6 /* JCCColor.h in Headers */,
+				4B404F1B206629F500A568D6 /* JCCDevice.h in Headers */,
+				4B404F5220662B1000A568D6 /* JCCMessageBar.h in Headers */,
+				4B404EDB2066289B00A568D6 /* JCCUIKit.h in Headers */,
+				4B404F5720662B1000A568D6 /* JCCMessageBarManager.h in Headers */,
+				4B404F3120662AE500A568D6 /* JCCEXTKeyPathCoding.h in Headers */,
+				4B404F15206629F500A568D6 /* JCCData.h in Headers */,
+				4B404F0C206629F500A568D6 /* JCCTableView.h in Headers */,
+				4B404F4720662B1000A568D6 /* JCCDrawingView.h in Headers */,
+				4B404F4D20662B1000A568D6 /* JCCLoopActivityIndicatorView.h in Headers */,
+				4B404F16206629F500A568D6 /* JCCScreen.h in Headers */,
+				4B404F2F20662AE500A568D6 /* jccmetamacros.h in Headers */,
+				4B404F2520662A4A00A568D6 /* ZKRJSONKit.h in Headers */,
+				4B404F14206629F500A568D6 /* JCCDefines.h in Headers */,
+				4B404F19206629F500A568D6 /* JCCButton.h in Headers */,
+				4B404F2420662A4A00A568D6 /* ZKRJSONSerialization.h in Headers */,
+				4B404F5020662B1000A568D6 /* JCCMessageBarSwipeGesture.h in Headers */,
+				4B404F0E206629F500A568D6 /* JCCTextField.h in Headers */,
+				4B404F08206629F500A568D6 /* JCCError.h in Headers */,
+				4B404F4F20662B1000A568D6 /* JCCMessageBarWindow.h in Headers */,
+				4B404F3020662AE500A568D6 /* JCCEXTScope.h in Headers */,
+				4B404F4920662B1000A568D6 /* JCCAnimatable.h in Headers */,
+				4B404F07206629F500A568D6 /* JCCCollectionView.h in Headers */,
+				4B404F13206629F500A568D6 /* JCCImage.h in Headers */,
+				4B404F5520662B1000A568D6 /* JCCMessageBarMessage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B404EC92066289B00A568D6 /* JCCUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B404EDE2066289B00A568D6 /* Build configuration list for PBXNativeTarget "JCCUIKit" */;
+			buildPhases = (
+				4B404EC52066289B00A568D6 /* Sources */,
+				4B404EC62066289B00A568D6 /* Frameworks */,
+				4B404EC72066289B00A568D6 /* Headers */,
+				4B404EC82066289B00A568D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCCUIKit;
+			productName = JCCUIKit;
+			productReference = 4B404ECA2066289B00A568D6 /* JCCUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B404ED22066289B00A568D6 /* JCCUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B404EE12066289B00A568D6 /* Build configuration list for PBXNativeTarget "JCCUIKitTests" */;
+			buildPhases = (
+				4B404ECF2066289B00A568D6 /* Sources */,
+				4B404ED02066289B00A568D6 /* Frameworks */,
+				4B404ED12066289B00A568D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B404ED62066289B00A568D6 /* PBXTargetDependency */,
+			);
+			name = JCCUIKitTests;
+			productName = JCCUIKitTests;
+			productReference = 4B404ED32066289B00A568D6 /* JCCUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B404EC12066289B00A568D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = CHARS;
+				TargetAttributes = {
+					4B404EC92066289B00A568D6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B404ED22066289B00A568D6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B404EC42066289B00A568D6 /* Build configuration list for PBXProject "JCCUIKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B404EC02066289B00A568D6;
+			productRefGroup = 4B404ECB2066289B00A568D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B404EC92066289B00A568D6 /* JCCUIKit */,
+				4B404ED22066289B00A568D6 /* JCCUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B404EC82066289B00A568D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B404ED12066289B00A568D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B404EC52066289B00A568D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B404F2620662A4A00A568D6 /* ZKRJSONSerialization.m in Sources */,
+				4B404F09206629F500A568D6 /* JCCModel.m in Sources */,
+				4B404F0A206629F500A568D6 /* JCCString.m in Sources */,
+				4B404F5420662B1000A568D6 /* JCCMessageBarWindow.m in Sources */,
+				4B404F3220662AE500A568D6 /* JCCEXTScope.m in Sources */,
+				4B404F4E20662B1000A568D6 /* JCCMessageBarMessage.m in Sources */,
+				4B404F5320662B1000A568D6 /* JCCMessageBarSwipeGesture.m in Sources */,
+				4B404F10206629F500A568D6 /* JCCWeakProxy.m in Sources */,
+				4B404F05206629F500A568D6 /* JCCTextField.m in Sources */,
+				4B404F18206629F500A568D6 /* JCCScreen.m in Sources */,
+				4B404F03206629F500A568D6 /* JCCError.m in Sources */,
+				4B404F11206629F500A568D6 /* JCCCollectionView.m in Sources */,
+				4B404F5620662B1000A568D6 /* JCCMessageBar.m in Sources */,
+				4B404F17206629F500A568D6 /* JCCTableView.m in Sources */,
+				4B404F4B20662B1000A568D6 /* JCCLoopHUD.m in Sources */,
+				4B404F1C206629F500A568D6 /* JCCData.m in Sources */,
+				4B404F4A20662B1000A568D6 /* JCCLoopActivityIndicatorView.m in Sources */,
+				4B404F12206629F500A568D6 /* JCCButton.m in Sources */,
+				4B404F4C20662B1000A568D6 /* JCCDrawingView.m in Sources */,
+				4B404F0D206629F500A568D6 /* JCCImage.m in Sources */,
+				4B404F5120662B1000A568D6 /* JCCMessageBarManager.m in Sources */,
+				4B404F1A206629F500A568D6 /* JCCDevice.m in Sources */,
+				4B404F2320662A4A00A568D6 /* ZKRJSONKit.m in Sources */,
+				4B404F0B206629F500A568D6 /* JCCColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B404ECF2066289B00A568D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B404ED92066289B00A568D6 /* JCCUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B404ED62066289B00A568D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B404EC92066289B00A568D6 /* JCCUIKit */;
+			targetProxy = 4B404ED52066289B00A568D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B404EDC2066289B00A568D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B404EDD2066289B00A568D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B404EDF2066289B00A568D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JCCUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chars.JCCUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B404EE02066289B00A568D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JCCUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chars.JCCUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B404EE22066289B00A568D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCCUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chars.JCCUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B404EE32066289B00A568D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCCUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chars.JCCUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B404EC42066289B00A568D6 /* Build configuration list for PBXProject "JCCUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B404EDC2066289B00A568D6 /* Debug */,
+				4B404EDD2066289B00A568D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B404EDE2066289B00A568D6 /* Build configuration list for PBXNativeTarget "JCCUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B404EDF2066289B00A568D6 /* Debug */,
+				4B404EE02066289B00A568D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B404EE12066289B00A568D6 /* Build configuration list for PBXNativeTarget "JCCUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B404EE22066289B00A568D6 /* Debug */,
+				4B404EE32066289B00A568D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B404EC12066289B00A568D6 /* Project object */;
+}
