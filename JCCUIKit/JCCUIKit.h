@@ -25,6 +25,7 @@
 #import "JCCData.h"
 #import "JCCMessageBarMessage.h"
 #import "JCCLoopHUD.h"
+#import "JCCInvocation.h"
 
 #endif /* JCCUIKit_h */
 

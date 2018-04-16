@@ -62,6 +62,8 @@
 		4B404F5520662B1000A568D6 /* JCCMessageBarMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F4420662B1000A568D6 /* JCCMessageBarMessage.h */; };
 		4B404F5620662B1000A568D6 /* JCCMessageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404F4520662B1000A568D6 /* JCCMessageBar.m */; };
 		4B404F5720662B1000A568D6 /* JCCMessageBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404F4620662B1000A568D6 /* JCCMessageBarManager.h */; };
+		4B89013E2084585D005E80D1 /* JCCInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B89013C2084585D005E80D1 /* JCCInvocation.h */; };
+		4B89013F2084585D005E80D1 /* JCCInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B89013D2084585D005E80D1 /* JCCInvocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,8 @@
 		4B404F4420662B1000A568D6 /* JCCMessageBarMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCMessageBarMessage.h; sourceTree = "<group>"; };
 		4B404F4520662B1000A568D6 /* JCCMessageBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCMessageBar.m; sourceTree = "<group>"; };
 		4B404F4620662B1000A568D6 /* JCCMessageBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCMessageBarManager.h; sourceTree = "<group>"; };
+		4B89013C2084585D005E80D1 /* JCCInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCInvocation.h; sourceTree = "<group>"; };
+		4B89013D2084585D005E80D1 /* JCCInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCInvocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +215,8 @@
 				4B404EE8206629F500A568D6 /* JCCError.m */,
 				4B404EF8206629F500A568D6 /* JCCImage.h */,
 				4B404EF2206629F500A568D6 /* JCCImage.m */,
+				4B89013C2084585D005E80D1 /* JCCInvocation.h */,
+				4B89013D2084585D005E80D1 /* JCCInvocation.m */,
 				4B404EEB206629F500A568D6 /* JCCModel.h */,
 				4B404EEE206629F500A568D6 /* JCCModel.m */,
 				4B404EFB206629F500A568D6 /* JCCScreen.h */,
@@ -334,6 +340,7 @@
 				4B404F07206629F500A568D6 /* JCCCollectionView.h in Headers */,
 				4B404F13206629F500A568D6 /* JCCImage.h in Headers */,
 				4B404F5520662B1000A568D6 /* JCCMessageBarMessage.h in Headers */,
+				4B89013E2084585D005E80D1 /* JCCInvocation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +461,7 @@
 				4B404F4A20662B1000A568D6 /* JCCLoopActivityIndicatorView.m in Sources */,
 				4B404F12206629F500A568D6 /* JCCButton.m in Sources */,
 				4B404F4C20662B1000A568D6 /* JCCDrawingView.m in Sources */,
+				4B89013F2084585D005E80D1 /* JCCInvocation.m in Sources */,
 				4B404F0D206629F500A568D6 /* JCCImage.m in Sources */,
 				4B404F5120662B1000A568D6 /* JCCMessageBarManager.m in Sources */,
 				4B404F1A206629F500A568D6 /* JCCDevice.m in Sources */,
