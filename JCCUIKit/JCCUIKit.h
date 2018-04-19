@@ -26,6 +26,8 @@
 #import "JCCMessageBarMessage.h"
 #import "JCCLoopHUD.h"
 #import "JCCInvocation.h"
+#import "JCCGeometry.h"
+#import "JCCCache.h"
 
 #endif /* JCCUIKit_h */
 

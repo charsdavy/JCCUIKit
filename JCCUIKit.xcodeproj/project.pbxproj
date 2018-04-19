@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0F1E1520887670005D8851 /* JCCCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0F1E0F2088766F005D8851 /* JCCCache.h */; };
+		4B0F1E1620887670005D8851 /* JCCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0F1E102088766F005D8851 /* JCCGeometry.h */; };
+		4B0F1E1720887670005D8851 /* JCCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F1E112088766F005D8851 /* JCCGeometry.m */; };
+		4B0F1E1820887670005D8851 /* JCCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F1E122088766F005D8851 /* JCCCache.m */; };
+		4B0F1E1920887670005D8851 /* JCCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0F1E132088766F005D8851 /* JCCColor.h */; };
+		4B0F1E1A20887670005D8851 /* JCCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F1E142088766F005D8851 /* JCCColor.m */; };
 		4B404ED42066289B00A568D6 /* JCCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B404ECA2066289B00A568D6 /* JCCUIKit.framework */; };
 		4B404ED92066289B00A568D6 /* JCCUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404ED82066289B00A568D6 /* JCCUIKitTests.m */; };
 		4B404EDB2066289B00A568D6 /* JCCUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404ECD2066289B00A568D6 /* JCCUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B404F02206629F500A568D6 /* JCCWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EE7206629F500A568D6 /* JCCWeakProxy.h */; };
 		4B404F03206629F500A568D6 /* JCCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EE8206629F500A568D6 /* JCCError.m */; };
-		4B404F04206629F500A568D6 /* JCCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EE9206629F500A568D6 /* JCCColor.h */; };
 		4B404F05206629F500A568D6 /* JCCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EEA206629F500A568D6 /* JCCTextField.m */; };
 		4B404F06206629F500A568D6 /* JCCModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EEB206629F500A568D6 /* JCCModel.h */; };
 		4B404F07206629F500A568D6 /* JCCCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EEC206629F500A568D6 /* JCCCollectionView.h */; };
 		4B404F08206629F500A568D6 /* JCCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EED206629F500A568D6 /* JCCError.h */; };
 		4B404F09206629F500A568D6 /* JCCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EEE206629F500A568D6 /* JCCModel.m */; };
 		4B404F0A206629F500A568D6 /* JCCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EEF206629F500A568D6 /* JCCString.m */; };
-		4B404F0B206629F500A568D6 /* JCCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EF0206629F500A568D6 /* JCCColor.m */; };
 		4B404F0C206629F500A568D6 /* JCCTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EF1206629F500A568D6 /* JCCTableView.h */; };
 		4B404F0D206629F500A568D6 /* JCCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404EF2206629F500A568D6 /* JCCImage.m */; };
 		4B404F0E206629F500A568D6 /* JCCTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404EF3206629F500A568D6 /* JCCTextField.h */; };
@@ -77,6 +81,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B0F1E0F2088766F005D8851 /* JCCCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCCache.h; sourceTree = "<group>"; };
+		4B0F1E102088766F005D8851 /* JCCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCGeometry.h; sourceTree = "<group>"; };
+		4B0F1E112088766F005D8851 /* JCCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCGeometry.m; sourceTree = "<group>"; };
+		4B0F1E122088766F005D8851 /* JCCCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCCache.m; sourceTree = "<group>"; };
+		4B0F1E132088766F005D8851 /* JCCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCColor.h; sourceTree = "<group>"; };
+		4B0F1E142088766F005D8851 /* JCCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCColor.m; sourceTree = "<group>"; };
 		4B404ECA2066289B00A568D6 /* JCCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B404ECD2066289B00A568D6 /* JCCUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCCUIKit.h; sourceTree = "<group>"; };
 		4B404ECE2066289B00A568D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,14 +95,12 @@
 		4B404EDA2066289B00A568D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B404EE7206629F500A568D6 /* JCCWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCWeakProxy.h; sourceTree = "<group>"; };
 		4B404EE8206629F500A568D6 /* JCCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCError.m; sourceTree = "<group>"; };
-		4B404EE9206629F500A568D6 /* JCCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCColor.h; sourceTree = "<group>"; };
 		4B404EEA206629F500A568D6 /* JCCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCTextField.m; sourceTree = "<group>"; };
 		4B404EEB206629F500A568D6 /* JCCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCModel.h; sourceTree = "<group>"; };
 		4B404EEC206629F500A568D6 /* JCCCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCCollectionView.h; sourceTree = "<group>"; };
 		4B404EED206629F500A568D6 /* JCCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCError.h; sourceTree = "<group>"; };
 		4B404EEE206629F500A568D6 /* JCCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCModel.m; sourceTree = "<group>"; };
 		4B404EEF206629F500A568D6 /* JCCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCString.m; sourceTree = "<group>"; };
-		4B404EF0206629F500A568D6 /* JCCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCColor.m; sourceTree = "<group>"; };
 		4B404EF1206629F500A568D6 /* JCCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCTableView.h; sourceTree = "<group>"; };
 		4B404EF2206629F500A568D6 /* JCCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCImage.m; sourceTree = "<group>"; };
 		4B404EF3206629F500A568D6 /* JCCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCTextField.h; sourceTree = "<group>"; };
@@ -202,10 +210,12 @@
 			children = (
 				4B404EFE206629F500A568D6 /* JCCButton.h */,
 				4B404EF7206629F500A568D6 /* JCCButton.m */,
+				4B0F1E0F2088766F005D8851 /* JCCCache.h */,
+				4B0F1E122088766F005D8851 /* JCCCache.m */,
 				4B404EEC206629F500A568D6 /* JCCCollectionView.h */,
 				4B404EF6206629F500A568D6 /* JCCCollectionView.m */,
-				4B404EE9206629F500A568D6 /* JCCColor.h */,
-				4B404EF0206629F500A568D6 /* JCCColor.m */,
+				4B0F1E132088766F005D8851 /* JCCColor.h */,
+				4B0F1E142088766F005D8851 /* JCCColor.m */,
 				4B404EFA206629F500A568D6 /* JCCData.h */,
 				4B404F01206629F500A568D6 /* JCCData.m */,
 				4B404EF9206629F500A568D6 /* JCCDefines.h */,
@@ -213,6 +223,8 @@
 				4B404EFF206629F500A568D6 /* JCCDevice.m */,
 				4B404EED206629F500A568D6 /* JCCError.h */,
 				4B404EE8206629F500A568D6 /* JCCError.m */,
+				4B0F1E102088766F005D8851 /* JCCGeometry.h */,
+				4B0F1E112088766F005D8851 /* JCCGeometry.m */,
 				4B404EF8206629F500A568D6 /* JCCImage.h */,
 				4B404EF2206629F500A568D6 /* JCCImage.m */,
 				4B89013C2084585D005E80D1 /* JCCInvocation.h */,
@@ -315,7 +327,6 @@
 				4B404F4820662B1000A568D6 /* JCCLoopHUD.h in Headers */,
 				4B404F0F206629F500A568D6 /* JCCString.h in Headers */,
 				4B404F06206629F500A568D6 /* JCCModel.h in Headers */,
-				4B404F04206629F500A568D6 /* JCCColor.h in Headers */,
 				4B404F1B206629F500A568D6 /* JCCDevice.h in Headers */,
 				4B404F5220662B1000A568D6 /* JCCMessageBar.h in Headers */,
 				4B404EDB2066289B00A568D6 /* JCCUIKit.h in Headers */,
@@ -326,6 +337,8 @@
 				4B404F4720662B1000A568D6 /* JCCDrawingView.h in Headers */,
 				4B404F4D20662B1000A568D6 /* JCCLoopActivityIndicatorView.h in Headers */,
 				4B404F16206629F500A568D6 /* JCCScreen.h in Headers */,
+				4B0F1E1520887670005D8851 /* JCCCache.h in Headers */,
+				4B0F1E1920887670005D8851 /* JCCColor.h in Headers */,
 				4B404F2F20662AE500A568D6 /* jccmetamacros.h in Headers */,
 				4B404F2520662A4A00A568D6 /* ZKRJSONKit.h in Headers */,
 				4B404F14206629F500A568D6 /* JCCDefines.h in Headers */,
@@ -338,6 +351,7 @@
 				4B404F3020662AE500A568D6 /* JCCEXTScope.h in Headers */,
 				4B404F4920662B1000A568D6 /* JCCAnimatable.h in Headers */,
 				4B404F07206629F500A568D6 /* JCCCollectionView.h in Headers */,
+				4B0F1E1620887670005D8851 /* JCCGeometry.h in Headers */,
 				4B404F13206629F500A568D6 /* JCCImage.h in Headers */,
 				4B404F5520662B1000A568D6 /* JCCMessageBarMessage.h in Headers */,
 				4B89013E2084585D005E80D1 /* JCCInvocation.h in Headers */,
@@ -456,17 +470,19 @@
 				4B404F11206629F500A568D6 /* JCCCollectionView.m in Sources */,
 				4B404F5620662B1000A568D6 /* JCCMessageBar.m in Sources */,
 				4B404F17206629F500A568D6 /* JCCTableView.m in Sources */,
+				4B0F1E1A20887670005D8851 /* JCCColor.m in Sources */,
 				4B404F4B20662B1000A568D6 /* JCCLoopHUD.m in Sources */,
+				4B0F1E1720887670005D8851 /* JCCGeometry.m in Sources */,
 				4B404F1C206629F500A568D6 /* JCCData.m in Sources */,
 				4B404F4A20662B1000A568D6 /* JCCLoopActivityIndicatorView.m in Sources */,
 				4B404F12206629F500A568D6 /* JCCButton.m in Sources */,
 				4B404F4C20662B1000A568D6 /* JCCDrawingView.m in Sources */,
 				4B89013F2084585D005E80D1 /* JCCInvocation.m in Sources */,
+				4B0F1E1820887670005D8851 /* JCCCache.m in Sources */,
 				4B404F0D206629F500A568D6 /* JCCImage.m in Sources */,
 				4B404F5120662B1000A568D6 /* JCCMessageBarManager.m in Sources */,
 				4B404F1A206629F500A568D6 /* JCCDevice.m in Sources */,
 				4B404F2320662A4A00A568D6 /* ZKRJSONKit.m in Sources */,
-				4B404F0B206629F500A568D6 /* JCCColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
