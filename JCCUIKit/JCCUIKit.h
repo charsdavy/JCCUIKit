@@ -28,6 +28,7 @@
 #import "JCCInvocation.h"
 #import "JCCGeometry.h"
 #import "JCCCache.h"
+#import "JCCFont.h"
 
 #endif /* JCCUIKit_h */
 

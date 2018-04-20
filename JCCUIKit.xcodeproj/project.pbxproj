@@ -13,6 +13,8 @@
 		4B0F1E1820887670005D8851 /* JCCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F1E122088766F005D8851 /* JCCCache.m */; };
 		4B0F1E1920887670005D8851 /* JCCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0F1E132088766F005D8851 /* JCCColor.h */; };
 		4B0F1E1A20887670005D8851 /* JCCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F1E142088766F005D8851 /* JCCColor.m */; };
+		4B16E7A420898D0100C8A628 /* JCCFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B16E7A220898D0100C8A628 /* JCCFont.m */; };
+		4B16E7A520898D0100C8A628 /* JCCFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B16E7A320898D0100C8A628 /* JCCFont.h */; };
 		4B404ED42066289B00A568D6 /* JCCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B404ECA2066289B00A568D6 /* JCCUIKit.framework */; };
 		4B404ED92066289B00A568D6 /* JCCUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B404ED82066289B00A568D6 /* JCCUIKitTests.m */; };
 		4B404EDB2066289B00A568D6 /* JCCUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B404ECD2066289B00A568D6 /* JCCUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,6 +89,8 @@
 		4B0F1E122088766F005D8851 /* JCCCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCCache.m; sourceTree = "<group>"; };
 		4B0F1E132088766F005D8851 /* JCCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCColor.h; sourceTree = "<group>"; };
 		4B0F1E142088766F005D8851 /* JCCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCColor.m; sourceTree = "<group>"; };
+		4B16E7A220898D0100C8A628 /* JCCFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCFont.m; sourceTree = "<group>"; };
+		4B16E7A320898D0100C8A628 /* JCCFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCFont.h; sourceTree = "<group>"; };
 		4B404ECA2066289B00A568D6 /* JCCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B404ECD2066289B00A568D6 /* JCCUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCCUIKit.h; sourceTree = "<group>"; };
 		4B404ECE2066289B00A568D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 				4B404EFF206629F500A568D6 /* JCCDevice.m */,
 				4B404EED206629F500A568D6 /* JCCError.h */,
 				4B404EE8206629F500A568D6 /* JCCError.m */,
+				4B16E7A320898D0100C8A628 /* JCCFont.h */,
+				4B16E7A220898D0100C8A628 /* JCCFont.m */,
 				4B0F1E102088766F005D8851 /* JCCGeometry.h */,
 				4B0F1E112088766F005D8851 /* JCCGeometry.m */,
 				4B404EF8206629F500A568D6 /* JCCImage.h */,
@@ -337,6 +343,7 @@
 				4B404F4720662B1000A568D6 /* JCCDrawingView.h in Headers */,
 				4B404F4D20662B1000A568D6 /* JCCLoopActivityIndicatorView.h in Headers */,
 				4B404F16206629F500A568D6 /* JCCScreen.h in Headers */,
+				4B16E7A520898D0100C8A628 /* JCCFont.h in Headers */,
 				4B0F1E1520887670005D8851 /* JCCCache.h in Headers */,
 				4B0F1E1920887670005D8851 /* JCCColor.h in Headers */,
 				4B404F2F20662AE500A568D6 /* jccmetamacros.h in Headers */,
@@ -463,6 +470,7 @@
 				4B404F3220662AE500A568D6 /* JCCEXTScope.m in Sources */,
 				4B404F4E20662B1000A568D6 /* JCCMessageBarMessage.m in Sources */,
 				4B404F5320662B1000A568D6 /* JCCMessageBarSwipeGesture.m in Sources */,
+				4B16E7A420898D0100C8A628 /* JCCFont.m in Sources */,
 				4B404F10206629F500A568D6 /* JCCWeakProxy.m in Sources */,
 				4B404F05206629F500A568D6 /* JCCTextField.m in Sources */,
 				4B404F18206629F500A568D6 /* JCCScreen.m in Sources */,
