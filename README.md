@@ -2,6 +2,13 @@
 
 将一些经常用到的方法进行封装和总结，以便创建新项目时可以方便使用。
 
+## Installation
+
+1、Download files
+
+2、Import into Project
+
+
 ## 方法功能
 
 ### JCCButton
@@ -9,7 +16,7 @@
 通过 `touchInsets` 属性设置按钮可以点击的区域。
 
 
-```
+```objc
 @interface JCCButton : UIButton
 
 @property (nonatomic) UIEdgeInsets touchInsets;
@@ -21,7 +28,7 @@
 
 提供多种使用 16 进制的数或者字符串来设置颜色，例如：`0xffffff`、`@"#ffffff"`。
 
-```
+```objc
 @interface UIColor (JCCColor)
 
 + (UIColor *)jcc_colorWithRGBString:(NSString *)string;
@@ -37,7 +44,7 @@
 
 ### JCCData
 
-```
+```objc
 @interface NSData (JCCData)
 
 - (NSString *)jcc_md5String;
@@ -47,7 +54,7 @@
 
 ### JCCImage
 
-```
+```objc
 /**
  判断data是否为gif图像
  */
@@ -56,7 +63,7 @@ JCC_EXTERN BOOL JCCDataIsValidGIFData(NSData *imageData);
 
 ### JCCModel
 
-```
+```objc
 extern BOOL JCCStringIsExplicitNO(NSString *string);
 extern BOOL JCCStringIsExplicitYES(NSString *string);
 
@@ -127,7 +134,7 @@ extern BOOL JCCStringIsExplicitYES(NSString *string);
 
 ### JCCScreen
 
-```
+```objc
 typedef NS_ENUM (NSInteger, JCCScreenPhysicalSize) {
     JCCScreenPhysicalSizeUnknown   = -1,
     JCCScreenPhysicalSize_3_5_inch = 0, // iPhone 4, 或者是在 iPad 上运行 iPhone App
@@ -155,7 +162,7 @@ JCC_EXTERN CGFloat JCCPixelToPoint(CGFloat pixel);
 
 ### JCCString
 
-```
+```objc
 @interface NSString (JCCString)
 
 + (NSString *)jcc_minuteSecondWithInterval:(NSTimeInterval)interval;
@@ -183,7 +190,7 @@ JCC_EXTERN CGFloat JCCPixelToPoint(CGFloat pixel);
 
 通过 `containTextInsets` 自定义文本区域的边距。
 
-```
+```objc
 @interface JCCTextField : UITextField
 
 @property (nonatomic) UIEdgeInsets containTextInsets;
@@ -193,6 +200,6 @@ JCC_EXTERN CGFloat JCCPixelToPoint(CGFloat pixel);
 
 ### JCCDevice
 
-```
+```objc
 #define JCCOSVersionAtLeast(major, minor, patch) [[NSProcessInfo processInfo] isOperatingSystemAtLeastVersion:JCCOSVersionMake(major, minor, patch)]
 ```
